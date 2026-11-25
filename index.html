@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Anubhav Singh – Web Developer">
+  <title>Anubhav Singh | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">Anubhav<span>.</span></a>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">☀️</button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="greeting">Hello, I'm</p>
+        <h1>Anubhav Singh</h1>
+        <h2>I am a <span class="typing" id="typing"></span><span class="cursor">|</span></h2>
+        <p class="hero-desc">
+          I build clean, responsive and user-friendly websites using HTML, CSS and JavaScript.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <div class="img-frame">
+          <img src="images/profile.jpg" alt="Anubhav Singh">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <h2 class="section-title reveal">About <span>Me</span></h2>
+      <div class="about-content reveal">
+        <p>
+          Hi! I'm <strong>Anubhav Singh</strong>, a B.Tech CSE (Data Science + AI) student at
+          Shri Ramswaroop Memorial University and an aspiring web developer.
+          I enjoy turning ideas into real, working websites and I'm always curious about how things
+          on the web work behind the scenes.
+        </p>
+        <p>
+          Right now I'm focused on strengthening my fundamentals in HTML, CSS and JavaScript, and I
+          love building projects that look good on every screen size. My goal is to grow into a
+          full-stack developer, bring AI and data into my work, and build products that people actually enjoy using.
+        </p>
+        <div class="stats">
+          <div class="stat"><h3 class="counter" data-target="10">0</h3><p>Projects Built</p></div>
+          <div class="stat"><h3 class="counter" data-target="3">0</h3><p>Core Languages</p></div>
+          <div class="stat"><h3 class="counter" data-target="100">0</h3><p>% Dedication</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <h2 class="section-title reveal">My <span>Education</span></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span class="timeline-date">2024 – Present</span>
+          <h3>B.Tech in Computer Science &amp; Engineering (Data Science + AI)</h3>
+          <p class="timeline-place">Shri Ramswaroop Memorial University</p>
+          <p>Studying core computer science along with data science, artificial intelligence and web development.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="timeline-date">2026</span>
+          <h3>Web Development Course</h3>
+          <p class="timeline-place">HTML, CSS &amp; JavaScript</p>
+          <p>Learned to build responsive websites and deploy them with Git, GitHub and GitHub Pages.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="timeline-date">2022 – 2024</span>
+          <h3>Senior Secondary (Class XII)</h3>
+          <p class="timeline-place">Your School Name</p>
+          <p>Completed higher secondary education.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <h2 class="section-title reveal">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill reveal">
+          <div class="skill-info"><span>HTML5</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-info"><span>CSS3</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-info"><span>JavaScript</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-info"><span>Responsive Design</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-info"><span>Git &amp; GitHub</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+        <div class="skill reveal">
+          <div class="skill-info"><span>Problem Solving</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+      </div>
+      <div class="tags reveal">
+        <span>Flexbox</span><span>CSS Grid</span><span>DOM Manipulation</span>
+        <span>Media Queries</span><span>VS Code</span><span>GitHub Pages</span>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <h2 class="section-title reveal">My <span>Projects</span></h2>
+
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="html">HTML/CSS</button>
+        <button class="filter-btn" data-filter="js">JavaScript</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal" data-category="html">
+          <div class="project-icon">🌐</div>
+          <h3>Personal Portfolio</h3>
+          <p>This responsive portfolio website with dark/light mode, animations and a working form.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <div class="project-links"><a href="#" target="_blank">Live</a><a href="#" target="_blank">Code</a></div>
+        </article>
+
+        <article class="project-card reveal" data-category="js">
+          <div class="project-icon">✅</div>
+          <h3>To-Do List App</h3>
+          <p>Add, complete and delete tasks. Tasks are saved in the browser using localStorage.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <div class="project-links"><a href="#" target="_blank">Live</a><a href="#" target="_blank">Code</a></div>
+        </article>
+
+        <article class="project-card reveal" data-category="js">
+          <div class="project-icon">🧮</div>
+          <h3>Calculator</h3>
+          <p>A clean calculator that handles basic arithmetic with keyboard support.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <div class="project-links"><a href="#" target="_blank">Live</a><a href="#" target="_blank">Code</a></div>
+        </article>
+
+        <article class="project-card reveal" data-category="html">
+          <div class="project-icon">🍔</div>
+          <h3>Restaurant Landing Page</h3>
+          <p>A responsive landing page with a menu section, gallery and contact info.</p>
+          <div class="project-tech"><span>HTML</span><span>CSS</span></div>
+          <div class="project-links"><a href="#" target="_blank">Live</a><a href="#" target="_blank">Code</a></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <h2 class="section-title reveal">Contact <span>Me</span></h2>
+      <div class="contact-wrapper">
+        <div class="contact-info reveal">
+          <h3>Let's work together!</h3>
+          <p>Have a question or an opportunity? Feel free to reach out — I'll get back to you soon.</p>
+          <p>📧 <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+          <p>📍 India</p>
+          <div class="socials">
+            <a href="https://github.com/your-username" target="_blank" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name">
+            <small class="error"></small>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email">
+            <small class="error"></small>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+            <small class="error"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-success" id="formSuccess"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Anubhav Singh. All rights reserved.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
